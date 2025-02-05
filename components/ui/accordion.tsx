@@ -57,22 +57,31 @@ const AccordionContent = React.forwardRef<
     <div className="pb-6 pt-0 flex-col">
       {children}
       <br />
-      <Link href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.bindarchitects.com%2Ffaq%3FquestionId" target="_blank">
+      <Link
+        href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.vivekdoshi.com%2Ffaq%3FquestionId"
+        target="_blank"
+      >
         <Button variant="ghost" className="h-8 w-8 mr-1 px-1 ">
           <Icons.linkedin className="hover:text-orange-500  text-white" />
         </Button>
       </Link>
-      <Link href="https://www.instagram.com/studio_bind/" target="_blank">
+      <Link href="https://www.instagram.com/__nishthashah/" target="_blank">
         <Button variant="ghost" className="h-8 w-8 mr-1 px-1">
           <Icons.insta className="hover:text-orange-500  text-white" />
         </Button>
       </Link>
-      <Link href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bindarchitects.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d" target="_blank">
+      <Link
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vivekdoshi.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d"
+        target="_blank"
+      >
         <Button variant="ghost" className="h-8 w-8 mr-1 px-1 mt-3">
           <Icons.fab className="hover:text-orange-500  text-white" />
         </Button>
       </Link>
-      <Link href="https://twitter.com/intent/tweet?url=https://www.bindarchitects.com/faq?questionId=bbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d" target="_blank">
+      <Link
+        href="https://twitter.com/intent/tweet?url=https://www.vivekdoshi.com/faq?questionId=bbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d"
+        target="_blank"
+      >
         <Button variant="ghost" className="h-8 w-8 px-1 mt-3">
           <Icons.twitter className="hover:text-orange-500  text-white" />
         </Button>

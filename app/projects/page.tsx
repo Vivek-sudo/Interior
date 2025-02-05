@@ -11,7 +11,7 @@ import "@/styles/fonts.css";
 import Script from "next/script";
 
 const metadata: Metadata = {
-  metadataBase: new URL("https://www.bindarchitects.com/projects"),
+  metadataBase: new URL("https://www.vivekdoshi.com/projects"),
   title: "Explore our projects - Nishtha Architects",
   description:
     "Step into a realm of architectural brilliance with Nishtha Architects, Vadodara's renowned firm shaping spaces that ignite the imagination. ",
@@ -65,14 +65,14 @@ const graph = {
   "@graph": [
     {
       "@type": "WPHeader",
-      url: "https://www.bindarchitects.com/projects/",
+      url: "https://www.vivekdoshi.com/projects/",
       headline: "Explore our projects - Nishtha Architects",
       description:
         "List of our various kinds of architecture designs. Share us your idea, we will design the rest to bring it to life.",
     },
     {
       "@type": "WPFooter",
-      url: "https://www.bindarchitects.com/projects/",
+      url: "https://www.vivekdoshi.com/projects/",
       headline: "Explore our projects - Nishtha Architects",
       description:
         "List of our various kinds of architecture designs. Share us your idea, we will design the rest to bring it to life.",
@@ -80,24 +80,24 @@ const graph = {
     },
     {
       "@type": "Organization",
-      "@id": "https://www.bindarchitects.com/#schema-publishing-organization",
-      url: "https://www.bindarchitects.com",
+      "@id": "https://www.vivekdoshi.com/#schema-publishing-organization",
+      url: "https://www.vivekdoshi.com",
       name: "DLEA",
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.bindarchitects.com/#schema-website",
-      url: "https://www.bindarchitects.com",
+      "@id": "https://www.vivekdoshi.com/#schema-website",
+      url: "https://www.vivekdoshi.com",
       name: "DLEA",
       encoding: "UTF-8",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.bindarchitects.com/projects/{search_term_string}/",
+        target: "https://www.vivekdoshi.com/projects/{search_term_string}/",
         "query-input": "required name=search_term_string",
       },
       image: {
         "@type": "ImageObject",
-        "@id": "https://www.bindarchitects.com/#schema-site-logo",
+        "@id": "https://www.vivekdoshi.com/#schema-site-logo",
         url: "https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/logo.png?alt=media&token=5a778e05-4ce8-4b61-ae5d-b6ec3e3e359d",
         height: 153,
         width: 300,
@@ -107,13 +107,13 @@ const graph = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.bindarchitects.com/projects?page&pagename=projects/#breadcrumb",
+        "https://www.vivekdoshi.com/projects?page&pagename=projects/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.bindarchitects.com",
+          item: "https://www.vivekdoshi.com",
         },
         {
           "@type": "ListItem",
@@ -124,65 +124,61 @@ const graph = {
     },
     {
       "@type": "Person",
-      "@id": "https://www.bindarchitects.com/about/#schema-author",
+      "@id": "https://www.vivekdoshi.com/about/#schema-author",
       name: "dleain",
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.bindarchitects.com/projects/#schema-webpage",
+      "@id": "https://www.vivekdoshi.com/projects/#schema-webpage",
       isPartOf: {
-        "@id": "https://www.bindarchitects.com/#schema-website",
+        "@id": "https://www.vivekdoshi.com/#schema-website",
       },
       publisher: {
-        "@id": "https://www.bindarchitects.com/#schema-publishing-organization",
+        "@id": "https://www.vivekdoshi.com/#schema-publishing-organization",
       },
-      url: "https://www.bindarchitects.com/projects/",
+      url: "https://www.vivekdoshi.com/projects/",
       hasPart: [
         {
           "@type": "SiteNavigationElement",
-          "@id":
-            "https://www.bindarchitects.com/projects/#schema-nav-element-529",
+          "@id": "https://www.vivekdoshi.com/projects/#schema-nav-element-529",
           name: "Home",
-          url: "https://www.bindarchitects.com/",
+          url: "https://www.vivekdoshi.com/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id":
-            "https://www.bindarchitects.com/projects/#schema-nav-element-528",
+          "@id": "https://www.vivekdoshi.com/projects/#schema-nav-element-528",
           name: "",
-          url: "https://www.bindarchitects.com/about/",
+          url: "https://www.vivekdoshi.com/about/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id":
-            "https://www.bindarchitects.com/projects/#schema-nav-element-527",
+          "@id": "https://www.vivekdoshi.com/projects/#schema-nav-element-527",
           name: "",
-          url: "https://www.bindarchitects.com/projects/",
+          url: "https://www.vivekdoshi.com/projects/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id":
-            "https://www.bindarchitects.com/projects/#schema-nav-element-525",
+          "@id": "https://www.vivekdoshi.com/projects/#schema-nav-element-525",
           name: "",
-          url: "https://www.bindarchitects.com/contact/",
+          url: "https://www.vivekdoshi.com/contact/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-2394",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-2394",
           name: '<img src="https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/facebook.png?alt=media&token=ca6253bd-41b2-4bb1-9882-bcb9f0d43ce4" title="facebook bind" width="32px">',
-          url: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bindarchitects.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d",
+          url: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vivekdoshi.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-2395",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-2395",
           name: '<img src="https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/youtube.png?alt=media&token=ca6253bd-41b2-4bb1-9882-bcb9f0d43ce4" target="_blank" title="youtube bind" width="32px">',
           url: "https://www.youtube.com/channel/UCTI09wWkEJeNy7wXwD4zSCQ",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-2396",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-2396",
           name: '<img src="https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/instagram.png?alt=media&token=ca6253bd-41b2-4bb1-9882-bcb9f0d43ce4" target="_blank" title="instagram bind" width="32px">',
-          url: "https://www.instagram.com/studio_bind/",
+          url: "https://www.instagram.com/__nishthashah/",
         },
       ],
       dateModified: "2023-11-22T08:16:04",
@@ -193,7 +189,7 @@ const graph = {
       name: "Projects",
       image: {
         "@type": "ImageObject",
-        "@id": "https://www.bindarchitects.com/projects/#schema-article-image",
+        "@id": "https://www.vivekdoshi.com/projects/#schema-article-image",
         url: "https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/logo.png?alt=media&token=5a778e05-4ce8-4b61-ae5d-b6ec3e3e359d",
         height: 153,
         width: 300,
@@ -218,7 +214,7 @@ function ProjectsHome() {
         <title>
           Projects - Nishtha Architects - Best Architects in Vadodara
         </title>
-        <link rel="canonical" href="https://www.bindarchitects.com/projects/" />
+        <link rel="canonical" href="https://www.vivekdoshi.com/projects/" />
         <meta
           property="og:description"
           content="Step into a realm of architectural brilliance with Nishtha Architects, Vadodara's renowned firm shaping spaces that ignite the imagination. "
@@ -240,7 +236,7 @@ function ProjectsHome() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.bindarchitects.com/projects/"
+          content="https://www.vivekdoshi.com/projects/"
         />
         <meta name="twitter:card" content="summary" />
         <meta
@@ -275,7 +271,7 @@ function ProjectsHome() {
         data-speed="1.5"
         fallback={<div style={fallbackStyle}>Loading Please wait...</div>}
       >
-        <link rel="canonical" href="https://www.bindarchitects.com/projects" />
+        <link rel="canonical" href="https://www.vivekdoshi.com/projects" />
         <div className="min-h-screen  max-w-screen mt-4 bg" data-theme="">
           <div className="md:ml-0 ml-5 flex justify-between">
             <div className="hidden md:ml-24 md:block">

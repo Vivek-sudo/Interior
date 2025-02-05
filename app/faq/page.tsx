@@ -15,7 +15,7 @@ import SiteFooter from "@/components/site-footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.bindarchitects.com/faq"),
+  metadataBase: new URL("https://www.vivekdoshi.com/faq"),
   title: "FAQ - Find answers to your questions | Nishtha Architects - Vadodara",
   description:
     "Unravel design mysteries and illuminate your dream project with Nishtha Architects' insightful FAQs.",
@@ -61,14 +61,14 @@ const graph = {
   "@graph": [
     {
       "@type": "WPHeader",
-      url: "https://www.bindarchitects.com/faq/",
+      url: "https://www.vivekdoshi.com/faq/",
       headline: "Frequently Asked Questions - Nishtha",
       description:
         "Find answers to common questions about Nishtha and our services.",
     },
     {
       "@type": "WPFooter",
-      url: "https://www.bindarchitects.com/faq/",
+      url: "https://www.vivekdoshi.com/faq/",
       headline: "Frequently Asked Questions - Nishtha",
       description:
         "Find answers to common questions about Nishtha and our services.",
@@ -76,24 +76,24 @@ const graph = {
     },
     {
       "@type": "Organization",
-      "@id": "https://www.bindarchitects.com/#schema-publishing-organization",
-      url: "https://www.bindarchitects.com",
+      "@id": "https://www.vivekdoshi.com/#schema-publishing-organization",
+      url: "https://www.vivekdoshi.com",
       name: "Nishtha Architects",
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.bindarchitects.com/#schema-website",
-      url: "https://www.bindarchitects.com",
+      "@id": "https://www.vivekdoshi.com/#schema-website",
+      url: "https://www.vivekdoshi.com",
       name: "Nishtha Architects",
       encoding: "UTF-8",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.bindarchitects.com/projects/{search_term_string}/",
+        target: "https://www.vivekdoshi.com/projects/{search_term_string}/",
         "query-input": "required name=search_term_string",
       },
       image: {
         "@type": "ImageObject",
-        "@id": "https://www.bindarchitects.com/#schema-site-logo",
+        "@id": "https://www.vivekdoshi.com/#schema-site-logo",
         url: "https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/logo.png?alt=media&token=5a778e05-4ce8-4b61-ae5d-b6ec3e3e359d",
         height: 153,
         width: 300,
@@ -102,13 +102,13 @@ const graph = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.bindarchitects.com/faq?page&pagename=faq/#breadcrumb",
+      "@id": "https://www.vivekdoshi.com/faq?page&pagename=faq/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.bindarchitects.com",
+          item: "https://www.vivekdoshi.com",
         },
         {
           "@type": "ListItem",
@@ -119,17 +119,17 @@ const graph = {
     },
     {
       "@type": "Person",
-      "@id": "https://www.bindarchitects.com/about/#schema-author",
+      "@id": "https://www.vivekdoshi.com/about/#schema-author",
       name: "Nishtha Architects",
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.bindarchitects.com/faq/#schema-webpage",
-      isPartOf: "https://www.bindarchitects.com/#schema-website",
+      "@id": "https://www.vivekdoshi.com/faq/#schema-webpage",
+      isPartOf: "https://www.vivekdoshi.com/#schema-website",
       mainEntity: {
         "@type": "WebPage",
-        "@id": "https://www.bindarchitects.com/faq/#schema-webpage-main-entity",
-        url: "https://www.bindarchitects.com/faq/",
+        "@id": "https://www.vivekdoshi.com/faq/#schema-webpage-main-entity",
+        url: "https://www.vivekdoshi.com/faq/",
         headline: "Frequently Asked Questions - Nishtha",
         description:
           "Find answers to common questions about Nishtha and our services.",
@@ -137,53 +137,53 @@ const graph = {
       hasPart: [
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/faq/#schema-nav-element-529",
+          "@id": "https://www.vivekdoshi.com/faq/#schema-nav-element-529",
           name: "Home",
-          url: "https://www.bindarchitects.com/",
+          url: "https://www.vivekdoshi.com/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/faq/#schema-nav-element-528",
+          "@id": "https://www.vivekdoshi.com/faq/#schema-nav-element-528",
           name: "",
-          url: "https://www.bindarchitects.com/about/",
+          url: "https://www.vivekdoshi.com/about/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/faq/#schema-nav-element-527",
+          "@id": "https://www.vivekdoshi.com/faq/#schema-nav-element-527",
           name: "",
-          url: "https://www.bindarchitects.com/projects/",
+          url: "https://www.vivekdoshi.com/projects/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/faq/#schema-nav-element-525",
+          "@id": "https://www.vivekdoshi.com/faq/#schema-nav-element-525",
           name: "",
-          url: "https://www.bindarchitects.com/faq/",
+          url: "https://www.vivekdoshi.com/faq/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-2394",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-2394",
           name: '<img src="https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/facebook.png?alt=media&token=ca6253bd-41b2-4bb1-9882-bcb9f0d43ce4" title="facebook bind" width="32px">',
-          url: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bindarchitects.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d",
+          url: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vivekdoshi.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-2395",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-2395",
           name: '<img src="https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/youtube.png?alt=media&token=ca6253bd-41b2-4bb1-9882-bcb9f0d43ce4" target="_blank" title="youtube bind" width="32px">',
           url: "https://www.youtube.com/channel/UCTI09wWkEJeNy7wXwD4zSCQ",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-2396",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-2396",
           name: '<img src="https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/instagram.png?alt=media&token=ca6253bd-41b2-4bb1-9882-bcb9f0d43ce4" target="_blank" title="instagram bind" width="32px">',
-          url: "https://www.instagram.com/studio_bind/",
+          url: "https://www.instagram.com/__nishthashah/",
         },
       ],
-      url: "https://www.bindarchitects.com/faq/",
+      url: "https://www.vivekdoshi.com/faq/",
       author: {
-        "@id": "https://www.bindarchitects.com/about/#schema-author",
+        "@id": "https://www.vivekdoshi.com/about/#schema-author",
       },
       publisher: {
-        "@id": "https://www.bindarchitects.com/#schema-publishing-organization",
+        "@id": "https://www.vivekdoshi.com/#schema-publishing-organization",
       },
       dateModified: "2023-11-22T11:30:56",
       datePublished: "2023-10-29T05:29:19",
@@ -193,7 +193,7 @@ const graph = {
       name: "FAQ",
       image: {
         "@type": "ImageObject",
-        "@id": "https://www.bindarchitects.com/faq/#schema-article-image",
+        "@id": "https://www.vivekdoshi.com/faq/#schema-article-image",
         url: "https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/logo.png?alt=media&token=5a778e05-4ce8-4b61-ae5d-b6ec3e3e359d",
         height: 153,
         width: 300,
@@ -215,7 +215,7 @@ function page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }}
       />
       <Head>
-        <link rel="canonical" href="https://www.bindarchitects.com/faq/" />
+        <link rel="canonical" href="https://www.vivekdoshi.com/faq/" />
         <meta
           property="og:description"
           content="Unravel design mysteries and illuminate your dream project with Nishtha Architects' insightful FAQs."
@@ -235,7 +235,7 @@ function page() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.bindarchitects.com/faq/" />
+        <meta property="og:url" content="https://www.vivekdoshi.com/faq/" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="FAQ - Nishtha Architects" />
         <meta

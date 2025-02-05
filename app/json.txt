@@ -7,7 +7,7 @@
       "name": "Nishtha Architects",
       "logo": "https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/logo.png?alt=media&token=5a778e05-4ce8-4b61-ae5d-b6ec3e3e359d",
       "url": "https://bindhomes.com",
-      "sameAs": ["https://www.instagram.com/studio_bind/","https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bindarchitects.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d","https://www.youtube.com/channel/UCTI09wWkEJeNy7wXwD4zSCQ"],
+      "sameAs": ["https://www.instagram.com/__nishthashah/","https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vivekdoshi.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d","https://www.youtube.com/channel/UCTI09wWkEJeNy7wXwD4zSCQ"],
       "contactPoint": [
         {
           "@type": "ContactPoint",

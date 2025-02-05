@@ -35,7 +35,7 @@ export function Awards() {
             <div className="flex md:flex-col flex-col">
               <div className="flex-1 text-3xl mt-10 font-semibold dmsans leading-normal dmsans-semibold text-left sm:text-md sm:leading-8">
                 Promising & Creative Architecture & Interior Design Firm of the
-                Year 2023” Gujarati Nadu Award under “Residential Projects &
+                Year 2023” Gujarat Award under “Residential Projects &
                 Commercial Projects” Category for the year 2023 (GLOBAL
                 EDITION).
               </div>
@@ -52,7 +52,7 @@ export function Awards() {
             <div className="flex md:flex-col flex-col">
               <div className="flex-1 text-3xl font-semibold dmsans leading-normal dmsans-semibold text-left sm:text-md sm:leading-8">
                 Top 30 Rising & Trendsetter Architect & Designer of the Year
-                2023 , Gujarati Nadu.
+                2023 , Gujarat.
               </div>
               <br />
               <div className="flex-1 text-xl leading-normal dmsans text-left text-muted-foreground sm:text-md sm:leading-8">

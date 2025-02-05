@@ -33,14 +33,14 @@ export default function Footer({
           </Link>
           <Link
             aria-label="Instagram"
-            href="https://www.instagram.com/studio_bind/"
+            href="https://www.instagram.com/__nishthashah/"
             className="flex-1 px-4"
           >
             Instagram
           </Link>
           <Link
             aria-label="Facebook"
-            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bindarchitects.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d"
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vivekdoshi.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d"
             className="flex-1 px-4"
           >
             Facebook

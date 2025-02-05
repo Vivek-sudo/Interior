@@ -17,7 +17,7 @@ interface MarketingLayoutProps {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.bindarchitects.com/"),
+  metadataBase: new URL("https://www.vivekdoshi.com/"),
   title: "Nishtha - Best Architects in Vadodara | Top Architectural Firm",
   description:
     "Welcome to Nishtha Architects, where dreams take shape and sustainable futures are built in the vibrant city of Vadodara. As a leading architecture firm, we specialize in turning your visionary dreams into tangible realities, crafting spaces that seamlessly blend innovation, aesthetics, and sustainability.",
@@ -69,10 +69,10 @@ export const metadata: Metadata = {
   ],
   applicationName: "Nishtha Architects",
   robots: "index, follow",
-  alternates: { canonical: "https://www.bindarchitects.com/" },
+  alternates: { canonical: "https://www.vivekdoshi.com/" },
   category:
     "Architecture,best architects, architectural firm, Interior Design, Construction, Building Design, Architectural Design, Interior Designers, Architects, Interior Designers, Interior Decorators, Interior Decorators For Residence, Interior Decorators For Office, Interior Decorators For Showroom, Interior Decorators For Restaurant, Interior Decorators For Hotel, Interior Decorators For Hospital, Interior Decorators For School, Interior Decorators For College, Interior Decorators For University, Interior Decorators For Institute, Interior Decorators For Factory, Interior Decorators For Warehouse, Interior Decorators For Godown, Interior Decorators For Shop, Interior Decorators For Mall, Interior Decorators For Theatre, Interior Decorators For Auditorium, Interior Decorators For Stadium, Interior Decorators For Airport, Interior Decorators For Railway Station",
-  manifest: "https://www.bindarchitects.com/site.webmanifest",
+  manifest: "https://www.vivekdoshi.com/site.webmanifest",
   appleWebApp: {
     capable: true,
     title: "Nishtha Architects",
@@ -93,7 +93,7 @@ const graph = {
   "@graph": [
     {
       "@type": "WPHeader",
-      url: "https://www.bindarchitects.com/",
+      url: "https://www.vivekdoshi.com/",
       headline:
         "Nishtha - Best Architects in Vadodara | Top Architectural Firm",
       description:
@@ -101,7 +101,7 @@ const graph = {
     },
     {
       "@type": "WPFooter",
-      url: "https://www.bindarchitects.com/",
+      url: "https://www.vivekdoshi.com/",
       headline:
         "Nishtha - Best Architects in Vadodara | Top Architectural Firm",
       description:
@@ -110,8 +110,8 @@ const graph = {
     },
     {
       "@type": "Organization",
-      "@id": "https://www.bindarchitects.com/#schema-publishing-organization",
-      url: "https://www.bindarchitects.com",
+      "@id": "https://www.vivekdoshi.com/#schema-publishing-organization",
+      url: "https://www.vivekdoshi.com",
       name: "Nishtha Architects",
       description:
         "We are the team of Best architects in Vadodara and cater our top architects services on residential buildings, Interior Designs, Villa, Urban, Institutional and commercial places in Vadodara and all over Gujarat.",
@@ -119,7 +119,7 @@ const graph = {
         "@type": "ContactPoint",
         contactType: "customer support",
         telephone: "+91-8072701454",
-        url: "https://www.bindarchitects.com/contact/",
+        url: "https://www.vivekdoshi.com/contact/",
         availableLanguage: "Gujarati, English",
         email: "NishthaShah@gmail.com",
       },
@@ -134,18 +134,18 @@ const graph = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.bindarchitects.com/#schema-website",
-      url: "https://www.bindarchitects.com",
+      "@id": "https://www.vivekdoshi.com/#schema-website",
+      url: "https://www.vivekdoshi.com",
       name: "Nishtha Architects",
       encoding: "UTF-8",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.bindarchitects.com/projects/{search_term_string}/",
+        target: "https://www.vivekdoshi.com/projects/{search_term_string}/",
         "query-input": "required name=search_term_string",
       },
       image: {
         "@type": "ImageObject",
-        "@id": "https://www.bindarchitects.com/#schema-site-logo",
+        "@id": "https://www.vivekdoshi.com/#schema-site-logo",
         url: "https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/logo.png?alt=media&token=5a778e05-4ce8-4b61-ae5d-b6ec3e3e359d",
         height: 153,
         width: 300,
@@ -154,105 +154,105 @@ const graph = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.bindarchitects.com/#breadcrumb",
+      "@id": "https://www.vivekdoshi.com/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.bindarchitects.com",
+          item: "https://www.vivekdoshi.com",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Contact",
-          item: "https://www.bindarchitects.com/contact",
+          item: "https://www.vivekdoshi.com/contact",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Best architects in Vadodara",
-          item: "https://www.bindarchitects.com",
+          item: "https://www.vivekdoshi.com",
         },
         {
           "@type": "ListItem",
           position: 4,
           name: "Top architects in Vadodara",
-          item: "https://www.bindarchitects.com",
+          item: "https://www.vivekdoshi.com",
         },
       ],
     },
     {
       "@type": "Person",
-      "@id": "https://www.bindarchitects.com/about/#schema-author",
+      "@id": "https://www.vivekdoshi.com/about/#schema-author",
       name: "Nishtha Architects",
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.bindarchitects.com/#schema-webpage",
+      "@id": "https://www.vivekdoshi.com/#schema-webpage",
       isPartOf: {
-        "@id": "https://www.bindarchitects.com/#schema-website",
+        "@id": "https://www.vivekdoshi.com/#schema-website",
       },
       publisher: {
-        "@id": "https://www.bindarchitects.com/#schema-publishing-organization",
+        "@id": "https://www.vivekdoshi.com/#schema-publishing-organization",
       },
-      url: "https://www.bindarchitects.com/",
+      url: "https://www.vivekdoshi.com/",
       inLanguage: "en-US",
       hasPart: [
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-529",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-529",
           name: "Home",
-          url: "https://www.bindarchitects.com/",
+          url: "https://www.vivekdoshi.com/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-528",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-528",
           name: "",
-          url: "https://www.bindarchitects.com/about/",
+          url: "https://www.vivekdoshi.com/about/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-527",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-527",
           name: "",
-          url: "https://www.bindarchitects.com/projects/",
+          url: "https://www.vivekdoshi.com/projects/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-525",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-525",
           name: "",
-          url: "https://www.bindarchitects.com/contact/",
+          url: "https://www.vivekdoshi.com/contact/",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-2394",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-2394",
           name: '<img src="https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/facebook.png?alt=media&token=ca6253bd-41b2-4bb1-9882-bcb9f0d43ce4" title="facebook bind"width="32px">',
-          url: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bindarchitects.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d",
+          url: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vivekdoshi.com%2Ffaq%3FquestionId%3Dbbe7072b-402e-4a9a-9fe1-cbf90f0c831e&appDefId=14c92d28-031e-7910-c9a8-a670011e062d",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-2395",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-2395",
           name: '<img src="https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/youtube.png?alt=media&token=ca6253bd-41b2-4bb1-9882-bcb9f0d43ce4" target="_blank" title="youtube bind"width="32px">',
           url: "https://www.youtube.com/channel/UCTI09wWkEJeNy7wXwD4zSCQ",
         },
         {
           "@type": "SiteNavigationElement",
-          "@id": "https://www.bindarchitects.com/#schema-nav-element-2396",
+          "@id": "https://www.vivekdoshi.com/#schema-nav-element-2396",
           name: '<img src="https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/instagram.png?alt=media&token=ca6253bd-41b2-4bb1-9882-bcb9f0d43ce4" target="_blank" title="instagram bind" width="32px">',
-          url: "https://www.instagram.com/studio_bind/",
+          url: "https://www.instagram.com/__nishthashah/",
         },
       ],
     },
     {
       "@type": "Article",
       mainEntityOfPage: {
-        "@id": "https://www.bindarchitects.com/#schema-webpage",
+        "@id": "https://www.vivekdoshi.com/#schema-webpage",
       },
       author: {
-        "@id": "https://www.bindarchitects.com/about/#schema-author",
+        "@id": "https://www.vivekdoshi.com/about/#schema-author",
       },
       publisher: {
-        "@id": "https://www.bindarchitects.com/#schema-publishing-organization",
+        "@id": "https://www.vivekdoshi.com/#schema-publishing-organization",
       },
       dateModified: "2023-11-22T14:29:49",
       datePublished: "2023-09-24T08:32:28",
@@ -263,7 +263,7 @@ const graph = {
       name: "Best architects in Vadodara",
       image: {
         "@type": "ImageObject",
-        "@id": "https://www.bindarchitects.com/#schema-article-image",
+        "@id": "https://www.vivekdoshi.com/#schema-article-image",
         url: "https://firebasestorage.googleapis.com/v0/b/bind-f87fe.appspot.com/o/logo.png?alt=media&token=5a778e05-4ce8-4b61-ae5d-b6ec3e3e359d",
         height: 153,
         width: 300,
@@ -289,7 +289,7 @@ export default function HomeLayout() {
         <title>
           Nishtha - Best Architects in Vadodara | Top Architectural Firm
         </title>
-        <link rel="canonical" href="https://www.bindarchitects.com/" />
+        <link rel="canonical" href="https://www.vivekdoshi.com/" />
         <meta
           name="twitter:image:alt"
           property="og:image:alt"
@@ -307,7 +307,7 @@ export default function HomeLayout() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Site Kit by Google 1.104.0" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.bindarchitects.com/" />
+        <meta property="og:url" content="https://www.vivekdoshi.com/" />
         <meta
           property="og:title"
           content="Nishtha - Best Architects in Vadodara | Top Architectural Firm"
