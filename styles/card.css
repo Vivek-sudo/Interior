@@ -1,0 +1,155 @@
+:root {
+	--cards: 4;
+	--cardHeight: 67vh;
+	--cardTopPadding: 1.5em;
+	--cardMargin: 4vw;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 95%;
+		margin-left: 18px;
+	}
+  }
+
+#cards {
+	list-style: none;
+	padding-left: 0;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(var(--cards), var(--cardHeight));
+	gap: var(--cardMargin);
+	padding-bottom: calc(var(--cards) * var(--cardTopPadding));
+	margin-bottom: var(--cardMargin);
+}
+
+#card1 {
+	--index: 1;
+}
+#card2 {
+	--index: 2;
+}
+#card3 {
+	--index: 3;
+}
+#card4 {
+	--index: 4;
+}
+#card5 {
+	--index: 5;
+}
+#card6 {
+	--index: 6;
+}
+#card7 {
+	--index: 7;
+}
+#card8 {
+	--index: 8;
+}
+#card9 {
+	--index: 9;
+}
+#card10 {
+	--index: 10;
+}
+#card11 {
+	--index: 11;
+}
+#card12 {
+	--index: 12;
+}
+#card13 {
+	--index: 13;
+}
+#card14 {
+	--index: 14;
+}
+#card15 {
+	--index: 15;
+}
+
+.card {
+	position: sticky;
+	top: 0;
+	padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+
+#card1 .card-body {
+	background-color: #cb371a;
+}
+
+#card2 .card-body {
+	/* background-color: #7EC4CF; */
+	background-color: #853c05;
+}
+
+#card3 .card-body {
+	background-color: #4cbec2;
+}
+
+#card4 .card-body {
+	background-color: #fe3268;
+}
+
+#card5 .card-body {
+	background-color: #33adff;
+}
+
+#card6 .card-body {
+	background-color: #0df6cf;
+}
+
+#card7 .card-body {
+	background-color: #FFD700;
+}
+
+#card8 .card-body {
+	background-color: #800080;
+}
+
+#card9 .card-body {
+	background-color: #FF6B6B;
+}
+
+#card10 .card-body {
+	background-color: #5F9EA0;
+}
+
+#card11 .card-body {
+	background-color: #E6E6FA;
+}
+
+#card12 .card-body {
+	background-color: #FF1493;
+}
+
+#card13 .card-body {
+	background-color: #05a635;
+}
+
+#card14 .card-body {
+	background-color: #0553a6;
+}
+
+#card15 .card-body {
+	background-color: #03200b;
+}
+
+.card-body { /* Reduce padding for smaller screens */
+	transition: all 0.5s;
+  }
+  
+  /* Responsive styles for smaller screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+	.card-body {
+	  padding: 10px; /* Further reduce padding for smaller screens */
+	}
+  }
+  
+  
